@@ -290,6 +290,15 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	}
 }
 
+.contact-us {
+	border: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 750px;
+	height: 800px;	
+}
+
 footer {
 	padding: 50px 0;
 	background-color:  #f8f8f8;
