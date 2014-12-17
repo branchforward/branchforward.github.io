@@ -50,7 +50,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .navbar-brand-image {
-	display: inline-block;
+	display: inline-block!important;
 	height: 30px;
 }
 
@@ -90,9 +90,28 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .intro-brand-logo {
-	width: 50% ;
-	min-width: 200px;
-	max-width: 400px;
+    -webkit-filter: brightness(2);
+    -moz-filter: brightness(2);
+    -o-filter: brightness(2);
+    -ms-filter: brightness(2);
+    filter: brightness(2);
+}
+
+@media(max-width:767px) {
+	.intro-brand-logo {
+		height: 40px;
+	}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+	.intro-brand-logo {
+		height: 60px;
+	}
+}
+@media(min-width:992px) {
+	.intro-brand-logo {
+		height: 80px;
+	}
 }
 
 .intro-message {
