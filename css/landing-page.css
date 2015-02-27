@@ -53,6 +53,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	display: inline-block!important;
 	height: 30px;
 }
+@media (max-width: 480px) {
+	.navbar-brand-image {
+		height: 15px;
+	}
+} 
 
 .navbar-secondary {
 	/* background-color: rgba(255, 255, 255, 0.0); */
@@ -96,8 +101,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     -ms-filter: brightness(2);
     filter: brightness(2);
 }
+@media (max-width: 480px) {
+	.intro-brand-logo {
+		height: 30px;
+	}
+}
 
-@media(max-width:767px) {
+@media (min-width:481px) and (max-width:767px) {
 	.intro-brand-logo {
 		height: 40px;
 	}
