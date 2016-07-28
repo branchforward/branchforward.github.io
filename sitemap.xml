@@ -10,19 +10,19 @@
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>http://www.branchforward.com/#company</loc>
+		<loc>http://www.branchforward.com/#mission</loc>
 		<changefreq>weekly</changefreq>
 	</url>
-	<url>
-		<loc>http://www.branchforward.com/#services</loc>
-		<changefreq>weekly</changefreq>
-	</url>
+  <url>
+    <loc>http://www.branchforward.com/#solutions</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.branchforward.com/#experience</loc>
+    <changefreq>weekly</changefreq>
+  </url>
 	<url>
 		<loc>http://www.branchforward.com/#contact</loc>
-		<changefreq>weekly</changefreq>
-	</url>
-	<url>
-		<loc>http://www.branchforward.com/</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 </urlset>
